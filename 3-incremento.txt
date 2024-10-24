@@ -1,0 +1,66 @@
+Variáveis iniciadas com os seguintes valores:
+
+INDICE = 12
+SOMA = 0
+K = 1
+
+O algoritmo consiste em um loop que continua enquanto o valor de K for menor
+que INDICE. Dentro desse loop, em cada iteração, são realizados dois passos principais:
+
+Incremento de K: O valor de K é incrementado em 1, ou seja, K = K + 1.
+Atualização de SOMA: O novo valor de K é adicionado à variável SOMA, ou seja, SOMA = SOMA + K.
+Vamos detalhar o que acontece em cada iteração do loop:
+
+1º. Iteração:
+K é incrementado de 1 para 2.
+SOMA é atualizada de 0 para 2 (0 + 2).
+
+2º. Iteração:
+K passa de 2 para 3.
+SOMA atualiza de 2 para 5 (2 + 3).
+
+3º. Iteração:
+K vai de 3 para 4.
+SOMA soma de 5 para 9 (5 + 4).
+
+
+4º. Iteração:
+K torna-se 5.
+SOMA atualiza para 14 (9 + 5).
+
+
+5º. Iteração:
+K vai para 6.
+SOMA soma para 20 (14 + 6).
+
+6º. Iteração:
+K torna-se 7.
+SOMA atualiza para 27 (20 + 7).
+
+7º. Iteração:
+K vai para 8.
+SOMA soma para 35 (27 + 8).
+
+8º. Iteração:
+K torna-se 9.
+SOMA atualiza para 44 (35 + 9).
+
+
+9º. Iteração:
+K vai para 10.
+SOMA soma para 54 (44 + 10).
+
+
+10º. Iteração:
+K torna-se 11.
+SOMA atualiza para 65 (54 + 11).
+
+11º. Iteração:
+K vai para 12.
+SOMA soma para 77 (65 + 12).
+
+
+Após a décima 11º, o valor de K é incrementado para 12. Assim, K não é mais menor que INDICE,
+então o loop é encerrado.
+
+Resposta: 77.
